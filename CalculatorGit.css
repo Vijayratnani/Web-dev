@@ -1,0 +1,76 @@
+*{
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+.title {
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(72,91,199);
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #edf1f4;
+}
+
+.calculator{
+    border-radius: 20px;
+    padding: 20px;
+    background: transparent;
+    box-shadow: 15px 15px 20px rgba(0,0,0,0.1), -15px -15px 20px #fffb;
+    backdrop-filter: blur(8px);
+
+}
+
+input{
+    width: 320px;
+    border: none;
+    padding: 24px;
+    margin: 10px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgbs(84, 84, 84, 0.1);
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+    color: rgb(72,91,199);
+}
+
+input::placeholder{
+    color: rgb(72,91,199);
+}
+
+button{
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    background: transparent;
+    color: rgb(72,91,199);
+    font-size: 20px;
+    font-weight: lighter;
+    box-shadow: 7px 15px 20px rgba(0, 0, -0.9, 0.03), -4px -4px 18px #fffb;
+    cursor: pointer;
+}
+
+.equalBtn{
+    background-color: rgba(255, 179, 80, 0.311);
+}
+
+.operator{
+    color: rgb(72,91,199);
+    font-weight: 500;
+    background-color: rgba(160, 178, 238, 0.204);
+}

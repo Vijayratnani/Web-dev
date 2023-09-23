@@ -1,0 +1,230 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: transparent;
+}
+
+nav{
+    background: linear-gradient(darkblue,Blue,skyblue);
+    width: 100%;
+    /* display: inline-block; */
+    flex-direction:column;
+    border: 2px groove rgba(128, 133, 137,0.5);
+    /* padding: 15px 0px 0px; */
+    margin:-20px 0px;
+    position: fixed;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* font-size: x-large; */
+    color:azure;
+}
+
+nav img{
+    width: 10%;
+}
+nav ul{
+    float: right;
+    margin:0PX 10px;
+    
+}
+nav ul li{
+    font-size: large;
+    display: inline-block;
+    justify-content: space-around;
+    margin: 5px 3px;
+    font-style: normal;
+}
+
+.header{
+    background-color: aliceblue;
+    background-image: url(https://wallpaperaccess.com/full/5652006.jpg);
+    background-position: center;
+    border: 2px groove rgba(128, 133, 137,0.5);
+    padding: 150px 0px 20px;
+    margin: 20px;
+    position: static;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+    color:azure;
+}
+
+
+
+.header div{
+    margin-left: 20%;
+    margin-top: -10%;
+    background-color: transparent;
+    font-size: 100px;
+}
+
+.header ul{
+    box-shadow: #181819;
+    list-style: none;
+    position: static;
+    margin-top:110px;
+    padding: 0%;
+}
+
+.header ul li{
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+}
+
+#About{
+    background-image: url(https://4.bp.blogspot.com/-cQ4XnoW4Ysc/Tzbg3Jh25VI/AAAAAAAAA74/xFjSDny2SqU/s1600/21.Jpg);
+    background-position: center;
+    background-color: aliceblue;
+    margin: 20px;
+    border: 2px groove rgba(128, 133, 137,0.5);
+    padding: 20px 0px;
+    position: static;
+    text-align: right;
+}
+
+#About img{
+    border-radius: 100%;
+}
+
+#About{
+    animation-delay: 0s;
+    animation-name:text;
+    animation-duration: 7s;
+    animation-iteration-count:1 ;
+}
+
+@keyframes text{
+    from{
+        margin-top: 120px;
+    }
+    to{
+        margin-top: 10px;
+    }
+}
+
+#Skills{
+    background: fixed;
+    background-image: url(https://cdn.wallpapersafari.com/8/28/QoTY5c.jpg);
+    background-position: center;
+    border: 2px groove rgba(128, 133, 137,0.5);
+    padding: 120px 0px;
+    position: static;
+    margin: 20px;
+    color:darkslategray;   
+    background-color:   #f5f5f5; /* Background color rgba(0,0,0,0.1);*/
+    padding: 20px; /* Add space around the content */    
+
+}
+
+#Skills h2{
+    color: #007BFF; /* Heading color */
+    font-size: 24px; /* Adjust font size as needed */
+    background-color: transparent;
+}
+
+#Skills ul{
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+    background-color: transparent;
+}
+
+#Skills ul li{
+    margin-bottom: 10px; /* Add spacing between each skill */
+    background-color: transparent;
+}
+
+#Skills li strong {
+    font-weight: bold; /* Make skill names bold */
+    background-color: transparent;
+}
+
+#Skills .progress {
+    height: 10px; /* Adjust the height of the progress bars */
+    background-color: #ccc; /* Background color of the progress bars */
+    margin-top: 5px; /* Add spacing between bars */
+}
+
+#Skills .progress .bar {
+    height: 100%; /* Set bar height to 100% */
+    background-color: #007BFF; /* Color of the filled portion of the bar*/
+}
+
+#Projects{
+    color: aquamarine;
+    background-image: url(https://images.vexels.com/media/users/3/204038/raw/32171678949026310a36e6aa73536f45-web-developer-logo-design.jpg);
+    background-position: center;
+    background-size: 220px;
+    background-color: aliceblue;
+    margin: auto;
+    border: 2px groove rgba(128, 133, 137,0.5);
+    padding: 150px 0px;
+    position: static;
+    text-align: center;
+    margin: 20px;
+}
+
+#Resume{
+    background-image: url(https://news.microsoft.com/uploads/prod/sites/388/2018/05/limitedexperience_hero_social.gif);
+    background-position: center;
+    background-color: aliceblue;
+    margin: auto;
+    border: 2px groove rgba(128, 133, 137,0.5);
+    padding: 150px 0px 100px;
+    position: static;
+    text-align: center;
+    align-items: center;
+    margin: 20px;
+    background-size: 1250px;
+}
+
+#Resume a{
+    font-size: 15px;
+    text-decoration: none;
+    color: antiquewhite;
+    background-color:rgba(1,1,1,0.5);
+}
+
+#Resume a:hover{
+    text-decoration: wavy;
+    color: purple;
+    background-color: transparent;
+}
+
+#Contact{
+    background: linear-gradient(rgba(0,0,0,0.1));
+    background-image: url(https://www.clipartkey.com/mpngs/m/186-1864014_contact-us-animated-gif.png);
+    background-size: 1200px;
+    background-position: center;
+    border: 2px groove rgba(128, 133, 137,0.5);
+    padding: 100px 0px 200px;
+    position: static;
+    text-align: center;
+    margin: 20px;
+    
+    box-shadow: #333;
+}
+
+#Contact a{
+    text-decoration: none;
+    color: white;
+    background-color: rgba(0,0,0,0.3);
+}
+
+#Contact a:hover{
+    text-decoration: none;
+    color: purple;
+    background-color: transparent;
+}
+
+footer{
+    background-image: url(https://i194.photobucket.com/albums/z105/mytokyo4u/BALA/footer.png);
+    background-position: center;
+    background-color: #333;
+    color: #fff;
+    margin: 20px;
+    border: 2px groove rgba(128, 133, 137,0.5);
+    padding: 20px 0;
+    position: static;
+    text-align: center;
+    align-items: center;
+    
+}
